@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_imagenes_texto_imagens",
+  "info": {
+    "displayName": "Texto Imagen"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "richtext"
+    },
+    "Imagen": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PosicionImagen": {
+      "type": "enumeration",
+      "enum": [
+        "Arriba",
+        "Abajo",
+        "Izquierda",
+        "Derecha"
+      ]
+    }
+  },
+  "config": {}
+}
